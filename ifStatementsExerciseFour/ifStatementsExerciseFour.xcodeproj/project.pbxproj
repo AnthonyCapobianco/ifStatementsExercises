@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EAE5E3191F8D6E2000AF37B6 /* ifStatementsExerciseOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ifStatementsExerciseOne; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE5E3191F8D6E2000AF37B6 /* ifStatementsExerciseFour */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ifStatementsExerciseFour; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE5E31C1F8D6E2000AF37B6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		EAE5E3101F8D6E2000AF37B6 = {
 			isa = PBXGroup;
 			children = (
-				EAE5E31B1F8D6E2000AF37B6 /* ifStatementsExerciseOne */,
+				EAE5E31B1F8D6E2000AF37B6 /* ifStatementsExerciseFour */,
 				EAE5E31A1F8D6E2000AF37B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		EAE5E31A1F8D6E2000AF37B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAE5E3191F8D6E2000AF37B6 /* ifStatementsExerciseOne */,
+				EAE5E3191F8D6E2000AF37B6 /* ifStatementsExerciseFour */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAE5E31B1F8D6E2000AF37B6 /* ifStatementsExerciseOne */ = {
+		EAE5E31B1F8D6E2000AF37B6 /* ifStatementsExerciseFour */ = {
 			isa = PBXGroup;
 			children = (
 				EAE5E31C1F8D6E2000AF37B6 /* main.c */,
 			);
-			path = ifStatementsExerciseOne;
+			path = ifStatementsExerciseFour;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAE5E3181F8D6E2000AF37B6 /* ifStatementsExerciseOne */ = {
+		EAE5E3181F8D6E2000AF37B6 /* ifStatementsExerciseFour */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAE5E3201F8D6E2000AF37B6 /* Build configuration list for PBXNativeTarget "ifStatementsExerciseOne" */;
+			buildConfigurationList = EAE5E3201F8D6E2000AF37B6 /* Build configuration list for PBXNativeTarget "ifStatementsExerciseFour" */;
 			buildPhases = (
 				EAE5E3151F8D6E2000AF37B6 /* Sources */,
 				EAE5E3161F8D6E2000AF37B6 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = ifStatementsExerciseOne;
+			name = ifStatementsExerciseFour;
 			productName = ifStatementsExerciseOne;
-			productReference = EAE5E3191F8D6E2000AF37B6 /* ifStatementsExerciseOne */;
+			productReference = EAE5E3191F8D6E2000AF37B6 /* ifStatementsExerciseFour */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EAE5E3141F8D6E2000AF37B6 /* Build configuration list for PBXProject "ifStatementsExerciseOne" */;
+			buildConfigurationList = EAE5E3141F8D6E2000AF37B6 /* Build configuration list for PBXProject "ifStatementsExerciseFour" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAE5E3181F8D6E2000AF37B6 /* ifStatementsExerciseOne */,
+				EAE5E3181F8D6E2000AF37B6 /* ifStatementsExerciseFour */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +248,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAE5E3141F8D6E2000AF37B6 /* Build configuration list for PBXProject "ifStatementsExerciseOne" */ = {
+		EAE5E3141F8D6E2000AF37B6 /* Build configuration list for PBXProject "ifStatementsExerciseFour" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAE5E31E1F8D6E2000AF37B6 /* Debug */,
@@ -257,7 +257,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAE5E3201F8D6E2000AF37B6 /* Build configuration list for PBXNativeTarget "ifStatementsExerciseOne" */ = {
+		EAE5E3201F8D6E2000AF37B6 /* Build configuration list for PBXNativeTarget "ifStatementsExerciseFour" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAE5E3211F8D6E2000AF37B6 /* Debug */,
