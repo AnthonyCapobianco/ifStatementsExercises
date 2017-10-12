@@ -7,9 +7,12 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void) {
+    float n[2];
+    for (int i = 0; i < 2; i++) {
+        printf("veuillez insérer le nombre numéro %i:\n", i+1);
+        scanf("%f", &n[i]);
+    }
+    printf("Le nombre le plus grand est %f\n", n[0]>n[1]?n[0]:n[1]);
     return 0;
 }
