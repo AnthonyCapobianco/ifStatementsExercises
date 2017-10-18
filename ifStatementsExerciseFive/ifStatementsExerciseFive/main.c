@@ -15,7 +15,7 @@ int main(void) {
         ,entries = 3;
     // A table is used to avoid redundancy in the code later on.
     // Also an empty variable is created to hold the result
-    float n[entries]
+    float n[3]
         ,temp;
     
     // Ask for 3 numbers (decimals allowed)
@@ -26,14 +26,14 @@ int main(void) {
         i++;
     }
     
-    
-    for (i=0; i<=entries; i++) {
-        if(n[i]>n[i+1]){
-            //swap
-            temp=n[i+1];
-            n[i+1]=n[i];
-            n[i]=temp;
-            
+    for (i=0; i<entries; i++) {
+        for (int j = 0; j<entries; j++) {
+            if(n[i]<n[j]){
+                //swap
+                temp=n[j];
+                n[j]=n[i];
+                n[i]=temp;
+            }
         }
     }
     // Print numbers in ascending order
